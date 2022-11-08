@@ -1,0 +1,168 @@
+* {
+    font-family: 'Playfair Display', serif;
+    background-color: #161717;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+    margin: auto;
+
+}
+.buttons{
+    display: flex;
+    align-self: flex-start;
+    gap: 20px;
+}
+.google-btn {
+    background-color: #c2d1e5;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+
+}
+
+.google-btn span {
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.google-btn picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.google-btn picture img {
+    width: 75%;
+   
+    border-radius: 2px;
+}
+.google-btn:hover{
+    opacity: 0.75;
+}
+.twitter-btn { 
+    background-color: #88898a;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+
+
+    padding: 2px;
+    cursor: pointer;
+}
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separator hr {
+    width: 100%;
+flex-grow: 1;
+border: none;
+border-top: 1px solid gray;
+}
+.separator span {
+    color: gray;
+    font-weight: 500;
+}
+.section-inputs {
+display: flex;
+flex-direction: column;
+
+gap: 10px;
+}
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label input {
+    width: 100%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s , box-shadow 0.2s ;
+  
+}
+.section-inputs label input {
+    width: 80%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14pt;
+  
+}
+label span {
+    font-weight: 700;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+label input:hover{
+    background-color: #454045;
+    border: 1px solid gray;
+    box-shadow: 0 0 4px gold;
+
+}
+label input:focus{
+    background-color: #bd9696;
+    border: 1px solid gray;
+    box-shadow: 0 0 4px gold;
+
+}
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+.checkbox span {
+    font-weight: 500;
+}
+.submit-btn {
+    background-color: #EA4C89;
+    color: whitesmoke;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14pt;
+    padding: 15px;
+    cursor: pointer;
+
+}
+.submit-btn:hover{
+    opacity: 0.75;
+}
